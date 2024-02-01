@@ -1,0 +1,47 @@
+.PreFooter{
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.PreFooter > div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgba(66,66,66,0.829);
+    cursor: pointer;   
+}
+
+.PreFooter > div:hover svg{
+    fill: rgb(34,34,34);
+}
+
+.PreFooter >div:hover p{
+    color: rgb(19, 18, 18);
+}
+
+.PreFooter svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37,37,37,0.322);
+    margin: 2vmax;
+}
+
+
+
+
+/* ------------ PRE FOOTER 2 ------------------
+
+.PreFooter2{
+    display: grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.PreFooter2 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
